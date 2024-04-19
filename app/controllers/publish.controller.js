@@ -1,4 +1,4 @@
-const PublishService = require("./../services/public.service");
+const PublishService = require("./../services/publish.service");
 const MongoBD = require("../utils/mongodb.util");
 const ApiError = require("../api_error");
 

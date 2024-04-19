@@ -12,6 +12,7 @@ class BookService {
       publisher: payload.publisher,
       year: payload.year,
       image: payload.image,
+      countInStock: payload.countInStock,
       quantity: payload.quantity,
       type: payload.type,
       description: payload.description,

@@ -28,7 +28,7 @@ class CartService {
         (item) => item.bookId === book.bookId
       );
       if (existingBookIndex !== -1) {
-        currentCart.books[existingBookIndex].quantity = book.quantity;
+        currentCart.books[existingBookIndex].quantity += book.quantity;
       } else {
         currentCart.books.push({
           bookId: book.bookId,
